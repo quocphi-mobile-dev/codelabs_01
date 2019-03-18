@@ -146,19 +146,18 @@
             <a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Tổng quan về Java</a>
+                <a href="#">Tổng quan về FireStore</a>
               </h4>
               <h5>15 Phút</h5>
               <h3> Mức độ : Dễ</h3>
-              <p class="card-text">Java có rất nhiều đặc điểm và tính năng nổi bật. Dưới đây là một số đặc điểm của Java
-                mà bạn có thể dễ dàng biết và tìm hiểu</p>
+              <p class="card-text">Cloud Firestore là một Database linh hoạt và dễ mở rộng cho mobile,
+                web và server được phát triển từ Firebase and Google Cloud Platform</p>
 
-
-              <button type="button" class="w3-button w3-red w3-margin-bottom-right">Bắt đầu</button>
-
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/Firestore.jsp'">
+                Bắt đầu</button>
             </div>
             <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              <small class="text-muted">&#9733; &#9733; &#9733; &#9733;</small>
             </div>
           </div>
         </div>
@@ -168,34 +167,35 @@
             <a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Cài đặt môi trường Java</a>
+                <a href="#">Tạo Project Listener</a>
               </h4>
               <h5>30 Phút</h5>
               <h3> Mức độ : Dễ</h3>
-              <p class="card-text">Nếu bạn muốn cài đặt môi trường cho việc sử dụng ngôn ngữ Java, phần sau đây sẽ giúp
-                bạn cách tải và cài đặt Java trên máy tính cá nhân của bạn. Theo những bước sau đây để cài đặt môi
-                trường Java.</p>
-              <button type="button" class="w3-button w3-red w3-margin-bottom">Bắt đầu</button>
+              <p class="card-text">Trong quy trình này, ứng dụng cho phép bạn đăng ký các phương thức (handler),
+                hay gọi là listener với các đối tượng</p>
+              <button type="button" class="w3-button w3-red w3-margin-bottom" onclick="window.location='/Listener.jsp'">
+                Bắt đầu</button>
             </div>
-
             <div class="card-footer">
               <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
             </div>
           </div>
         </div>
 
+
+
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Chương trình Java đầu tiên Hello World</a>
+                <a href="#">Tạo Project Login</a>
               </h4>
               <h5>10 Phút</h5>
               <h3> Mức độ : Dễ</h3>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam
-                aspernatur!</p>
-              <button type="button" class="w3-button w3-red w3-margin-bottom-right">Bắt đầu</button>
+              <p class="card-text"> </p>
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/Login.jsp'">
+                Bắt đầu</button>
 
             </div>
             <div class="card-footer">
