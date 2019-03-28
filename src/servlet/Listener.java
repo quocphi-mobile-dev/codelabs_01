@@ -13,7 +13,7 @@ public class Listener extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/Listener.jsp");
+        RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/listener/index.html");
         dispatcher.forward(request, response);
     }
 }

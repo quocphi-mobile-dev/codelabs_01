@@ -6,21 +6,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <%--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">--%>
+  <%--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">--%>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <%--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">--%>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    .w3-sidebar a {
-      font-family: "Roboto", sans-serif
-    }
 
-    body, h1, h2, h3, h4, h5, h6, .w3-wide {
-      font-family: "Montserrat", sans-serif;
-    }
-  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -39,7 +31,7 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container" style="background-color: black">
+  <div class="container " >
 
 
     <a class="navbar-brand" href="#">Codelabs Việt</a>
@@ -78,7 +70,7 @@
 </nav>
 
 <!-- Page Content -->
-<div class="container">
+<div class="container-fluid">
 
   <div class="row">
 
@@ -93,18 +85,9 @@
         <a href="#" class="list-group-item">Xử lý ngoại lệ(Exception Handling)</a>
         <a href="#" class="list-group-item">Cấu trúc dữ liệu trong Java</a>
 
-        <!-- <h1 class="my-4">Chủ đề</h1>
-      <div class="list-group">
-        <a href="#" class="list-group-item">Ngôn ngữ lập trình cơ bản</a>
-        <a href="#" class="list-group-item">Ngôn ngữ lập trình nâng cao</a>
-        <a href="#" class="list-group-item">Di động</a>
-        <a href="#" class="list-group-item">Web</a>
--->
       </div>
 
     </div>
-    <!-- /.col-lg-3 -->
-
     <div class="col-lg-9">
 
       <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
@@ -143,123 +126,141 @@
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>
+            <%--<a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>--%>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="#">Tổng quan về FireStore</a>
               </h4>
+              <h3> Mức độ : Dễ</h3>
               <h5>15 Phút</h5>
-              <h3> Mức độ : Dễ</h3>
-              <p class="card-text">Cloud Firestore là một Database linh hoạt và dễ mở rộng cho mobile,
-                web và server được phát triển từ Firebase and Google Cloud Platform</p>
 
-              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/Firestore.jsp'">
+              <p class="card-text"></p>
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/firestore/index.html'">
                 Bắt đầu</button>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733;</small>
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a href="#">Tạo Project Listener</a>
-              </h4>
-              <h5>30 Phút</h5>
-              <h3> Mức độ : Dễ</h3>
-              <p class="card-text">Trong quy trình này, ứng dụng cho phép bạn đăng ký các phương thức (handler),
-                hay gọi là listener với các đối tượng</p>
-              <button type="button" class="w3-button w3-red w3-margin-bottom" onclick="window.location='/Listener.jsp'">
-                Bắt đầu</button>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>
+            <%--<a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>--%>
             <div class="card-body">
               <h4 class="card-title">
                 <a href="#">Tạo Project Login</a>
               </h4>
-              <h5>10 Phút</h5>
               <h3> Mức độ : Dễ</h3>
+              <h5>10 Phút</h5>
+
               <p class="card-text"> </p>
-              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/Login.jsp'">
+
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/Login/index.html'">
                 Bắt đầu</button>
 
             </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <%--<a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>--%>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Tạo Project Listener</a>
+              </h4>
+              <h3> Mức độ : Dễ</h3>
+              <h5>10 Phút</h5>
+
+              <p class="card-text"> </p>
+
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/listener/index.html'">
+                Bắt đầu</button>
+
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <%--<a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>--%>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Cú pháp Java cơ bản</a>
+                <a href="#">Tạo Project Mysql</a>
               </h4>
-              <h5>20 Phút</h5>
-              <h3> Mức độ : Trung Bình</h3>
-              <p class="card-text"> Dưới đây chúng ta sẽ nêu ra một số định nghĩa cơ bản của lớp, đối tượng, phương thức
-                cũng như biến trong Java</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              <h3> Mức độ : Dễ</h3>
+              <h5>10 Phút</h5>
+
+              <p class="card-text"> </p>
+
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/mysql/index.html'">
+                Bắt đầu</button>
+
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <%--<a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>--%>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Item Five</a>
+                <a href="#">Tạo Project Html-Forms</a>
               </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!
-                Lorem ipsum dolor sit amet.</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              <h3> Mức độ : Dễ</h3>
+              <h5>10 Phút</h5>
+
+              <p class="card-text"> </p>
+
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/Html-forms/index.html'">
+                Bắt đầu</button>
+
             </div>
           </div>
         </div>
 
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <%--<a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>--%>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Item Six</a>
+                <a href="#">Tạo Project Expression-Language</a>
               </h4>
-              <h5>$24.99</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam
-                aspernatur!</p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+              <h3> Mức độ : Dễ</h3>
+              <h5>10 Phút</h5>
+
+              <p class="card-text"> </p>
+
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/expression-language/index.html'">
+                Bắt đầu</button>
+
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <%--<a href="#"><img class="card-img-top" src="https://vnreview.vn/image/14/91/03/1491033.jpg" alt=""></a>--%>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Tạo Project Helloworld</a>
+              </h4>
+              <h3> Mức độ : Dễ</h3>
+              <h5>10 Phút</h5>
+
+              <p class="card-text"> </p>
+
+              <button type="button" class="w3-button w3-red w3-margin-bottom-right" onclick="window.location='/lab1-helloworld/index.html'">
+                Bắt đầu</button>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
 
       </div>
-      <!-- /.row -->
-
-    </div>
     <!-- /.col-lg-9 -->
 
   </div>
@@ -276,8 +277,6 @@
       <form action="/action_page.php" target="_blank">
         <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
         <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
-        <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
-        <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
         <button type="submit" class="w3-button w3-block w3-black">Send</button>
       </form>
     </div>

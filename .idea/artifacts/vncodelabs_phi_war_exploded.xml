@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="vncodelabs_phi" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="com.google.firebase:firebase-admin:6.7.0" />
+        </element>
       </element>
     </root>
   </artifact>

@@ -11,6 +11,15 @@
         </webroots>
       </configuration>
     </facet>
+    <facet type="app-engine-flexible" name="Google App Engine Flexible">
+      <configuration>
+        <option name="appYamlPath" value="D:\TLHT\CuaSep\JavaZend\vncodelabs_phi\src\servlet" />
+        <option name="dockerDirectory" value="D:\TLHT\CuaSep\JavaZend\vncodelabs_phi\src\main\docker" />
+      </configuration>
+    </facet>
+    <facet type="app-engine-standard" name="Google App Engine Standard">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -21,5 +30,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Google App Engine Standard Local Server" level="application_server_libraries" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="com.google.firebase:firebase-admin:6.7.0" level="project" />
   </component>
 </module>
