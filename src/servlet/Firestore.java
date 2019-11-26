@@ -15,5 +15,6 @@ public class Firestore extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         RequestDispatcher dispatcher = this.getServletContext().getRequestDispatcher("/firestore/index.html");
         dispatcher.forward(request, response);
+
     }
 }
